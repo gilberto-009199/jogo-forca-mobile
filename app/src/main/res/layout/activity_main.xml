@@ -15,11 +15,12 @@
         android:paddingTop="20dp"
         >
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Forca"
-            android:textSize="23sp"
-            android:textColor="@color/text"
+            android:text="Senai Forca"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textColor="@color/white"
             />
         <ImageView
             android:layout_marginTop="10dp"
@@ -28,10 +29,12 @@
             android:src="@drawable/android64x64"
             android:layout_marginBottom="10dp"/>
         <TextView
-            android:paddingTop="10dp"
+            android:paddingTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
             android:text="Jogo da forca feito em java para android "/>
         <Button
             android:layout_marginTop="20dp"

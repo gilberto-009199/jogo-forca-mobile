@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     >
     <LinearLayout
-        android:paddingTop="70dp"
+        android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
@@ -24,8 +24,8 @@
             android:layout_height="30dp"
             android:layout_gravity="right"/>
         <TextView
-            android:textColor="@color/text"
-            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textSize="22sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -36,7 +36,7 @@
         <ImageView
             android:id="@+id/boneco"
             android:layout_width="match_parent"
-            android:layout_height="156dp"
+            android:layout_height="200dp"
             android:maxHeight="10dp"
             android:src="@drawable/imagemforca" />
         <LinearLayout
